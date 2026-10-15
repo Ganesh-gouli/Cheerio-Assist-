@@ -155,11 +155,43 @@ npm run dev
 ```
 * **Shareable Prototype Deployment Link:** [https://cheerio-assist.vercel.app/](https://cheerio-assist.vercel.app/) (Live production build hosted on Vercel).
 
-### 4. Checklist of Four Screenshots to Capture for Submission:
-* [ ] **Screenshot 1 — Screen 1 (Support Home):** Showing greeting, search bar, 4 category cards, and platform status.
-* [ ] **Screenshot 2 — Category 2 Tool (Template Linter & Auto-Fixer):** Showing the live approval gauge jumping from 18% to 96% with sanitized Meta copy.
-* [ ] **Screenshot 3 — Category 3 Tool (Chatbot Flow Loop Debugger):** Showing the visual flow map, repaired safe exit guard, and live bot simulator.
-* [ ] **Screenshot 4 — Screen 6 (Human Escalation with Report Export):** Showing Case reference ID, pre-populated attempted steps, and the "Export Report (.md)" button.
+### 4. Interactive Prototype Screen Showcase & Visual Walkthrough
+
+#### Screen 1: Intelligent Support Home & Platform Health
+![Screen 1: Intelligent Support Home](screenshots/01_support_home.png)
+*Figure 1: Support Home greeting Elena Rostova, providing intent search, real-time Cheerio platform status, and 4 high-frequency setup categories.*
+
+#### Screen 2: 3-Question Guided Diagnostic Tree
+![Screen 2: 3-Question Guided Diagnostic Tree](screenshots/02_diagnostic_questionnaire.png)
+*Figure 2: Deterministic onboarding diagnostics. Eliminates blank-canvas paralysis with 3 plain-English questions and inline "Explain in Simple Terms" jargon helpers.*
+
+#### Screen 3: Step-by-Step Guided Troubleshooting & Audio Narration
+![Screen 3: Step-by-Step Guided Troubleshooting](screenshots/03_guided_troubleshooting.png)
+*Figure 3: Interactive numbered fix steps with fallback accordion guides ("What if I don't see this setting?") and built-in Web Speech API voice guidance for hands-free setup.*
+
+#### Screen 4: Plain-English AI Support Copilot with Guardrails
+![Screen 4: Plain-English AI Support Copilot](screenshots/04_ai_support_copilot.png)
+*Figure 4: Guardrailed conversational copilot. Uses pre-configured prompt chips, displays rule confidence scores, and enforces strict boundary guards preventing hallucinated API credentials.*
+
+#### Screen 5: Self-Service Resolution Confirmation & Feedback Loop
+![Screen 5: Resolution Confirmation](screenshots/05_resolution_confirmation.png)
+*Figure 5: Resolution confirmation screen confirming WhatsApp Cloud API sync, providing recommended next business steps, and collecting 1-click Customer Effort Score (CES) feedback.*
+
+#### Screen 6: Context-Preserving Warm Human Escalation
+![Screen 6: Warm Human Escalation](screenshots/06_warm_human_escalation.png)
+*Figure 6: Warm escalation handover. Displays Case Reference #CH-45303, SLA response estimate, and automatically passes the exact diagnostic trace and attempted steps so the user never repeats themselves. Includes 1-click "Export Report (.md)" audit log.*
+
+#### Interactive Tool 1: Category 2 WhatsApp Template Approval & Compliance Checker
+![Category 2: Meta Template Compliance Linter](screenshots/07_meta_template_linter.png)
+*Figure 7: Pre-flight Meta template scanner. Live approval probability gauge jumps from 18% (rejection risk due to promo keywords in utility category) to 96% with 1-click AI compliance auto-fix.*
+
+#### Interactive Tool 2: Category 3 Chatbot Flow Builder & Logic Loop Debugger
+![Category 3: Chatbot Flow Loop Debugger](screenshots/08_chatbot_flow_debugger.png)
+*Figure 8: Visual flow graph analyzer detecting broken button links and infinite loop traps on default fallback handlers, paired with a live interactive WhatsApp phone simulator.*
+
+#### Interactive Tool 3: Category 4 Shopify & Webhook Automated Health Diagnostic
+![Category 4: Shopify Webhook Health Diagnostic](screenshots/09_shopify_integration_health.png)
+*Figure 9: Real-time 3-point integration health checker for Shopify OAuth tokens, webhook event handshakes, and E.164 international phone number formatting with simulated order dispatch.*
 
 ---
 

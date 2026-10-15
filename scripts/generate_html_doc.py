@@ -1,3 +1,6 @@
+import os
+import re
+import base64
 import markdown
 
 def convert_md_to_styled_html():
@@ -5,6 +8,27 @@ def convert_md_to_styled_html():
         md_text = f.read()
 
     html_content = markdown.markdown(md_text, extensions=['tables', 'fenced_code'])
+
+    # Inline all images as base64 data URIs so HTML & PDF are 100% self-contained
+    def replace_img(match):
+        src = match.group(1)
+        # Search in screenshots or root
+        candidates = [
+            src,
+            os.path.join(os.getcwd(), src),
+            os.path.join(os.getcwd(), 'public', src),
+            os.path.join(os.getcwd(), 'screenshots', os.path.basename(src))
+        ]
+        for c in candidates:
+            if os.path.exists(c):
+                with open(c, 'rb') as img_f:
+                    b64 = base64.b64encode(img_f.read()).decode('utf-8')
+                ext = os.path.splitext(c)[1].lower().replace('.', '')
+                mime = 'image/png' if ext == 'png' else ('image/jpeg' if ext in ['jpg', 'jpeg'] else 'image/webp')
+                return f'src="data:{mime};base64,{b64}"'
+        return match.group(0)
+
+    html_content = re.sub(r'src="([^"]+\.(?:png|jpg|jpeg|webp))"', replace_img, html_content)
 
     styled_html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -57,10 +81,11 @@ def convert_md_to_styled_html():
       margin-bottom: 10px;
     }}
     h4 {{
-      font-size: 13px;
+      font-size: 13.5px;
       font-weight: 700;
       color: #475569;
-      margin-top: 18px;
+      margin-top: 20px;
+      margin-bottom: 6px;
     }}
     p, li {{
       font-size: 13.5px;
@@ -128,6 +153,23 @@ def convert_md_to_styled_html():
       border-top: 1px solid #e2e8f0;
       margin: 32px 0;
     }}
+    img {{
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid #cbd5e1;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      margin: 14px 0 6px 0;
+      display: block;
+    }}
+    p > em {{
+      font-size: 11.5px;
+      color: #64748b;
+      display: block;
+      margin-top: 4px;
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }}
     
     @media print {{
       body {{
@@ -140,11 +182,17 @@ def convert_md_to_styled_html():
         padding: 0;
         max-width: 100%;
       }}
-      h2 {{
+      h1, h2 {{
         page-break-before: auto;
       }}
-      table, pre, blockquote {{
+      h3, h4 {{
+        page-break-after: avoid;
+      }}
+      table, pre, blockquote, img {{
         page-break-inside: avoid;
+      }}
+      p > em {{
+        page-break-before: avoid;
       }}
     }}
   </style>
@@ -158,7 +206,7 @@ def convert_md_to_styled_html():
 """
     with open('cheerio_product_assignment.html', 'w', encoding='utf-8') as f:
         f.write(styled_html)
-    print("Successfully created cheerio_product_assignment.html")
+    print("Successfully created cheerio_product_assignment.html with embedded base64 images")
 
 if __name__ == '__main__':
     convert_md_to_styled_html()

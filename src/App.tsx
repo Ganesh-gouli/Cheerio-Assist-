@@ -13,7 +13,11 @@ import { ScreenFlowDebugger } from './components/ScreenFlowDebugger';
 import { ScreenIntegrationHealth } from './components/ScreenIntegrationHealth';
 
 export function App() {
-  const [currentScreen, setCurrentScreen] = useState<ScreenId>('home');
+  const queryParam = typeof window !== 'undefined' ? (new URLSearchParams(window.location.search).get('screen') as ScreenId) : null;
+  const validScreens: ScreenId[] = ['home', 'identify', 'troubleshoot', 'ai_assistant', 'resolution', 'escalation', 'template_linter', 'flow_debugger', 'integration_health'];
+  const initialScreen: ScreenId = queryParam && validScreens.includes(queryParam) ? queryParam : 'home';
+  
+  const [currentScreen, setCurrentScreen] = useState<ScreenId>(initialScreen);
   const [isReviewerPanelOpen, setIsReviewerPanelOpen] = useState(false);
   const [diagnosticAnswers, setDiagnosticAnswers] = useState<Record<string, string>>({
     stage: 'phone_registered',
