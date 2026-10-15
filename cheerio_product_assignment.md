@@ -1,8 +1,19 @@
-# Cheerio Assist: Scaling Customer Support for Non-Technical Users
-**Cheerio AI — Product Management Intern Take-Home Assignment**  
-*Candidate Submission Document | Role: Product Intern*  
-*Target Product: Cheerio Assist — Setup & Support Copilot*  
-*Companion Workbook: `cheerio_cost_billing_audit.xlsx`*  
+# ASSIGNMENT: Make customer support scale for non-technical users
+**Cheerio AI — Product Management Intern Take-Home Assessment**  
+*Candidate:* **Ganesh Gouli** | *Role:* **Product Intern**  
+*Proposed Solution:* **Cheerio Assist — Setup & Support Copilot**  
+
+---
+
+### 🔗 SUBMISSION LINKS & OPEN-ACCESS RESOURCES
+> **Important Note for Reviewers:** All links below are public and open to anyone with the link (no login or permission requests required).
+
+| Resource | Direct Link | Description |
+| :--- | :--- | :--- |
+| **📊 Google Sheets Financial Model** | [**Open Google Sheet: Cheerio Cost, Billing & Audit Model**](https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?usp=sharing) *(Replace with your Google Sheet link)*<br>• *Raw File:* [`cheerio_cost_billing_audit.xlsx` (GitHub)](https://github.com/Ganesh-gouli/Cheerio-Assist-/raw/main/cheerio_cost_billing_audit.xlsx) | 5-sheet financial model covering 5,000 businesses, token economics ($0.138/resolution), Pro Add-on P&L ($14.2K/mo), and $15.2K/mo net support savings. |
+| **🌐 Live Interactive Prototype** | [**Launch Cheerio Assist Copilot**](https://cheerio-assist-.vercel.app) *(or your deployed Vercel link)* | Fully interactive web prototype simulating WhatsApp setup diagnosis, Meta template linter, chatbot flow debugger, and warm human escalation. |
+| **💻 GitHub Source Repository** | [**https://github.com/Ganesh-gouli/Cheerio-Assist-**](https://github.com/Ganesh-gouli/Cheerio-Assist-) | Complete open-source codebase (React 19, TypeScript, Tailwind CSS, Vite) with verified production build and documentation. |
+| **📝 AI Usage & Prompting Log** | [**ai_usage_log_template.md (GitHub)**](https://github.com/Ganesh-gouli/Cheerio-Assist-/blob/main/ai_usage_log_template.md) | Transparent disclosure of prompts used, iterations, rejected suggestions, and independent candidate decisions. |
 
 ---
 

@@ -1,6 +1,6 @@
 # AI Usage Evidence & Reflection Log
 **Cheerio AI — Product Management Intern Take-Home Assignment**  
-*Candidate Name:* [Insert Your Name]  
+*Candidate Name:* **Ganesh Gouli**  
 *Date of Submission:* October 15, 2026  
 *Primary AI Tools Used:* Google Antigravity Agentic IDE (Gemini 3.8 Flash model), Vite / React Toolchain  
 
