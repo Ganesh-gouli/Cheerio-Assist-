@@ -12,12 +12,12 @@ Cheerio AI empowers small businesses to automate marketing and customer engageme
 ---
 
 ## 🚀 Key Deliverables in This Repository
-
-1. **Clickable Web Prototype:** `Cheerio Assist` (Vite, React 19, TypeScript, Tailwind CSS).
-2. **Product Strategy Document (4 Pages):** [`cheerio_product_assignment.md`](./cheerio_product_assignment.md).
-3. **Financial, Cost & Audit Spreadsheet:** [`cheerio_cost_billing_audit.xlsx`](./cheerio_cost_billing_audit.xlsx) *(5 fully dynamic formula-linked sheets compatible with Google Sheets)*.
-4. **AI Usage Evidence & Reflection Log:** [`ai_usage_log_template.md`](./ai_usage_log_template.md).
-5. **Excel Generator Script:** [`scripts/generate_excel.py`](./scripts/generate_excel.py).
+* **🌐 Live Deployed Prototype:** [**https://cheerio-assist.vercel.app/**](https://cheerio-assist.vercel.app/) *(Hosted on Vercel)*
+* **📄 Submission Solution Document (PDF):** [`solution_document.pdf`](./solution_document.pdf) *(Formatted for upload)*
+* **📝 Product Strategy Document (4 Pages):** [`cheerio_product_assignment.md`](./cheerio_product_assignment.md)
+* **📊 Financial, Cost & Audit Spreadsheet:** [`cheerio_cost_billing_audit.xlsx`](./cheerio_cost_billing_audit.xlsx) *(5 fully dynamic formula-linked sheets compatible with Google Sheets)*
+* **🤖 AI Usage Evidence & Reflection Log:** [`ai_usage_log_template.md`](./ai_usage_log_template.md)
+* **💻 Open Source Codebase:** [GitHub Repository](https://github.com/Ganesh-gouli/Cheerio-Assist-)
 
 ---
 

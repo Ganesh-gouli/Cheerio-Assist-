@@ -11,7 +11,7 @@
 | Resource | Direct Link | Description |
 | :--- | :--- | :--- |
 | **📊 Google Sheets Financial Model** | [**Open Google Sheet: Cheerio Cost, Billing & Audit Model**](https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?usp=sharing) *(Replace with your Google Sheet link)*<br>• *Raw File:* [`cheerio_cost_billing_audit.xlsx` (GitHub)](https://github.com/Ganesh-gouli/Cheerio-Assist-/raw/main/cheerio_cost_billing_audit.xlsx) | 5-sheet financial model covering 5,000 businesses, token economics ($0.138/resolution), Pro Add-on P&L ($14.2K/mo), and $15.2K/mo net support savings. |
-| **🌐 Live Interactive Prototype** | [**Launch Cheerio Assist Copilot**](https://cheerio-assist-.vercel.app) *(or your deployed Vercel link)* | Fully interactive web prototype simulating WhatsApp setup diagnosis, Meta template linter, chatbot flow debugger, and warm human escalation. |
+| **🌐 Live Interactive Prototype** | [**Launch Cheerio Assist Copilot (https://cheerio-assist.vercel.app/)**](https://cheerio-assist.vercel.app/) | Fully interactive web prototype simulating WhatsApp setup diagnosis, Meta template linter, chatbot flow debugger, and warm human escalation. |
 | **💻 GitHub Source Repository** | [**https://github.com/Ganesh-gouli/Cheerio-Assist-**](https://github.com/Ganesh-gouli/Cheerio-Assist-) | Complete open-source codebase (React 19, TypeScript, Tailwind CSS, Vite) with verified production build and documentation. |
 | **📝 AI Usage & Prompting Log** | [**ai_usage_log_template.md (GitHub)**](https://github.com/Ganesh-gouli/Cheerio-Assist-/blob/main/ai_usage_log_template.md) | Transparent disclosure of prompts used, iterations, rejected suggestions, and independent candidate decisions. |
 
@@ -153,7 +153,7 @@ npm run dev
 # 3. Open in browser
 # Local URL: http://localhost:5173/
 ```
-* **Shareable Prototype Deployment Link:** `https://cheerio-assist-copilot.vercel.app` *(Placeholder for deployment on Vercel/Netlify; can be published with `npx vercel`)*.
+* **Shareable Prototype Deployment Link:** [https://cheerio-assist.vercel.app/](https://cheerio-assist.vercel.app/) (Live production build hosted on Vercel).
 
 ### 4. Checklist of Four Screenshots to Capture for Submission:
 * [ ] **Screenshot 1 — Screen 1 (Support Home):** Showing greeting, search bar, 4 category cards, and platform status.
