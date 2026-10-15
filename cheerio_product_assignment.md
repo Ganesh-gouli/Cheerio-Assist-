@@ -285,5 +285,3 @@ $$\text{Total Residual Human Tickets} = 980 + 1,200 = \mathbf{2,180 \text{ ticke
 7. **Pro Add-on Churn:** Monthly check; alert if Assist Pro add-on churn exceeds **> 5.0%**.
 8. **Gross Margin Floor:** Monthly check; alert if gross margin on paid tier drops below **< 85.0%**.
 
----
-*End of Assignment Document | Prototype source code, companion spreadsheet `cheerio_cost_billing_audit.xlsx`, and AI usage logs available in workspace.*
