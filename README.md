@@ -15,7 +15,7 @@ Cheerio AI empowers small businesses to automate marketing and customer engageme
 * **🌐 Live Deployed Prototype:** [**https://cheerio-assist.vercel.app/**](https://cheerio-assist.vercel.app/) *(Hosted on Vercel)*
 * **📄 Submission Solution Document (PDF):** [`solution_document.pdf`](./solution_document.pdf) *(Formatted for upload)*
 * **📝 Product Strategy Document (4 Pages):** [`cheerio_product_assignment.md`](./cheerio_product_assignment.md)
-* **📊 Financial, Cost & Audit Spreadsheet:** [`cheerio_cost_billing_audit.xlsx`](./cheerio_cost_billing_audit.xlsx) *(5 fully dynamic formula-linked sheets compatible with Google Sheets)*
+* **📊 Financial, Cost & Audit Spreadsheet:** [`cheerio_cost_billing_audit.xlsx`](./cheerio_cost_billing_audit.xlsx) ([Live Online Spreadsheet Viewer](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FGanesh-gouli%2FCheerio-Assist-%2Fmain%2Fcheerio_cost_billing_audit.xlsx&wdOrigin=BROWSELINK))
 * **🤖 AI Usage Evidence & Reflection Log:** [`ai_usage_log_template.md`](./ai_usage_log_template.md)
 * **💻 Open Source Codebase:** [GitHub Repository](https://github.com/Ganesh-gouli/Cheerio-Assist-)
 
